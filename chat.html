@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conestoga Bank - Chat Support</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Conestoga Bank</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="investments.html">Investments</a></li>
+                    <li><a href="transfer.html">Transfer Funds</a></li>
+                    <li><a href="index.html">Sign Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="chat-support-container">
+        <section class="chat-support">
+            <h2>Chat Support</h2>
+            <form id="chatSupportForm">
+                <label for="chatTopic">Select Field</label>
+                <select id="chatTopic" name="chatTopic">
+                    <option value="generalInquiry">General Inquiry</option>
+                    <option value="accountHelp">Account Help</option>
+                    <option value="technicalSupport">Technical Support</option>
+                </select>
+    
+                <label for="chatMessage">Enter Message</label>
+                <textarea id="chatMessage" name="chatMessage" rows="4" placeholder="Type your message here..."></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <aside class="quick-actions">
+            <h2>Quick Action Tools</h2>
+            <ul>
+                <li><a href="investments.html">Financial Investments</a></li>
+                <li><a href="transfer.html">Transfer Funds</a></li>
+                <li><a href="chat.html">Contact Chat Support</a></li>
+                <li><a href="#">Deposit Cheque</a></li> 
+            </ul>
+        </aside>
+
+        <aside class="applications">
+            <button>Apply for new Banking Account</button>
+            <button>Apply for new Credit Card</button>
+            <button>Apply for a Loan</button>
+        </aside>
+    </main>
+
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; Conestoga Bank 2023, Powered by: <b>REA</b></p>
+        </div>
+    </footer>
+</body>
+</html>

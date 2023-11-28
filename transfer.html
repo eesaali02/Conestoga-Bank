@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conestoga Bank - Transfer Funds</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Conestoga Bank</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="investments.html">Investments</a></li>
+                    <li class="current"><a href="transfer.html">Transfer Funds</a></li>
+                    <li><a href="index.html">Sign Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="transfer-funds-dashboard">
+        <section class="recent-transfers">
+            <h2>Recent Transfers</h2>
+            <div class="account">
+                <span>C-Bank Student Credit Card</span>
+                <span>$505 / $1,000.00</span>
+            </div>
+            <div class="account">
+                <span>C-Bank Chequing</span>
+                <span>$403.32</span>
+            </div>
+            <div class="account">
+                <span>C-Bank Savings</span>
+                <span>$2,012.76</span>
+            </div>
+           
+            <div class="transaction">
+                <span>Tyler S. - Received</span>
+                <span class="transaction-amount-pos">$114.32</span>
+            </div>
+            <div class="transaction">
+                <span>Sam R. - Sent</span>
+                <span class="transaction-amount-neg">$150.00</span>
+            </div>
+            <div class="transaction">
+                <span>Jessica P. - Received</span>
+                <span class="transaction-amount-pos">$75.89</span>
+            </div>
+            <div class="transaction">
+                <span>Chris T. - Sent</span>
+                <span class="transaction-amount-neg">$200.47</span>
+            </div>
+            <div class="transaction">
+                <span>Alex B. - Received</span>
+                <span class="transaction-amount-pos">$50.15</span>
+            </div>
+            
+            
+        </section>
+        
+        
+        <aside class="quick-actions">
+            <h2>Quick Action Tools</h2>
+            <ul>
+                <li><a href="investments.html">Financial Investments</a></li>
+                <li><a href="transfer.html">Transfer Funds</a></li>
+                <li><a href="chat.html">Contact Chat Support</a></li>
+                <li><a href="#">Deposit Cheque</a></li> 
+            </ul>
+        </aside>
+
+        <section class="send-e-transfer">
+            <h2>Send E-Transfer</h2>
+            <form>
+                <label for="account">Select Account</label>
+                <select id="account">
+                    
+                </select>
+    
+                <label for="recipient">Select Recipient</label>
+                <select id="recipient">
+                    
+                </select>
+    
+                <label for="amount">Enter Amount</label>
+                <input type="text" id="amount" name="amount" placeholder="Amount">
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+    </main>
+
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; Conestoga Bank 2023, Powered by: <b>REA</b></p>
+        </div>
+    </footer>
+</body>
+</html>

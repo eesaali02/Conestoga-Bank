@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conestoga Bank - Investments</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/home.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Conestoga Bank</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li class="current"><a href="investments.html">Investments</a></li>
+                    <li><a href="transfer.html">Transfer Funds</a></li>
+                    <li><a href="index.html">Sign Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="investment-dashboard">
+        
+        <section class="investment-accounts">
+            <h2>Investment Accounts</h2>
+            <div class="account-total">
+                <span>Total</span>
+                <span>$23,995.24</span>
+            </div>
+            <div class="account">
+                <span>RRSP - Work</span>
+                <span>$7,409.32</span>
+            </div>
+            <div class="account">
+                <span>Crypto</span>
+                <span>$4,573.16</span>
+            </div>
+            <div class="account">
+                <span>TFSA - Med Risk</span>
+                <span>$12,012.76</span>
+            </div>
+
+            <div class="investment-items">
+                <div class="investment-item">
+                    <span>Apple (1/4 Stock) - Purchase</span>
+                    <span class="transaction-amount-pos">$105.22</span>
+                </div>
+                <div class="investment-item">
+                    <span>Microsoft (1/2 Stock) - Purchase</span>
+                    <span class="transaction-amount-pos">$150.35</span>
+                </div>
+                <div class="investment-item">
+                    <span>Amazon (1 Stock) - Sale</span>
+                    <span class="transaction-amount-neg">$146.22</span>
+                </div>
+                
+                <div class="investment-item">
+                    <span>Tesla (1 Stock) - Purchase</span>
+                    <span class="transaction-amount-pos">$230.17</span>
+                </div>
+                <div class="investment-item">
+                    <span>Walmart (1 Stock) - Sale</span>
+                    <span class="transaction-amount-neg">$176.83</span>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <aside class="quick-actions">
+            <h2>Quick Action Tools</h2>
+            <ul>
+                <li><a href="investments.html">Financial Investments</a></li>
+                <li><a href="transfer.html">Transfer Funds</a></li>
+                <li><a href="chat.html">Contact Chat Support</a></li>
+                <li><a href="#">Deposit Cheque</a></li> 
+            </ul>
+        </aside>
+    
+        
+        <section class="buy-sell-stocks">
+            <h2>Buy/Sell Stocks</h2>
+            <form class="stock-form">
+                <label for="investment-account">Select Investment Account</label>
+                <select id="investment-account">
+                    
+                </select>
+                
+                <label for="stock">Select Stock</label>
+                <select id="stock">
+                    
+                </select>
+    
+                <div class="buy-sell-options">
+                    <label>
+                        <input type="radio" name="tradeType" value="buy" checked> Buy
+                    </label>
+                    <label>
+                        <input type="radio" name="tradeType" value="sell"> Sell
+                    </label>
+                </div>
+    
+                <label for="amount">Enter Amount</label>
+                <input type="number" id="amount" placeholder="Amount">
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; Conestoga Bank 2023, Powered by: <b>REA</b></p>
+        </div>
+    </footer>
+</body>
+</html>
